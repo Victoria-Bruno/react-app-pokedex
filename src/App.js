@@ -1,10 +1,9 @@
+import Pokemon from "./components/Pokemon/Pokemon";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        This is a Pokedex
-      </header>
+      <Pokemon />
     </div>
   );
 }
